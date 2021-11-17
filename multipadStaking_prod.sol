@@ -470,7 +470,7 @@ function stakeTokens(uint256 _amount) public  {
 
 
      
-       function getAccumulatedExpectedRewardForAnUser (address _addr) public view currentlyStaked returns(uint) {
+       function getAccumulatedExpectedRewardForAnUser (address _addr) public view  returns(uint) {
            
            
         uint currenttimeElasped = block.timestamp - stakers[_addr].since ;
